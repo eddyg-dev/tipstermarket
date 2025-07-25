@@ -2,155 +2,163 @@
 
 DESCRIPTION:
 
-DAZZLE is a modern and beautiful well crafted responsive template created for showcasing 
-your software and mobile application. Built with clean and organized css3 and html5 code, 
-this template is very easy to customize. It's mobile ready and retina/hi-dpi ready which 
-means it will look great on any devices from mobile to desktop, sharp and crisp on any screen 
-resolutions and displays. This stylish template is perfect for showcasing your software and mobile 
-application.
+TIPSTER MARKET est une plateforme web moderne et responsive conçue pour présenter 
+l'application mobile Tipster Market - la première plateforme française qui permet 
+de découvrir les vrais meilleurs tipsters avec des statistiques transparentes et vérifiées.
+
+Cette landing page présente l'application qui réunit tous les tipsters au même endroit, 
+avec leurs statistiques détaillées (ROI, win rate, cote moyenne) et un classement en temps réel. 
+Parfaite pour les parieurs sportifs qui veulent identifier les vrais experts du paris sportif.
 
 ==================================================================================================
 
+FONCTIONNALITÉS DE L'APPLICATION TIPSTER MARKET:
 
-USING THE MAILCHIMP FORM:
+✅ Statistiques Transparentes
+- ROI (retour sur investissement)
+- Win rate (taux de réussite) 
+- Cote moyenne
+- Nombre de paris
+- Données vérifiées et mises à jour en temps réel
 
-To use the mailchimp form you need a mailchimp url. To get the mailchimp url, login to 
-your mailchimp account, click the list menu, click the stats download menu and select signup forms. 
-Then choose embedded forms and select naked form. In the generated form code get the value of 
-the form ACTION attribute and use it as your mailchimp url. Open the main.js file located
-in the template's "js" folder and look for this line of code: 
+✅ Classement en Temps Réel
+- Classement des meilleurs tipsters mis à jour quotidiennement
+- Tri par ROI, win rate, ou nombre de paris gagnants
+- Identification rapide des vrais experts
 
-var cfg = {
-    scrollDuration : 800, // smoothscroll duration
-    mailChimpURL   : 'https://facebook.us8.list-manage.com/subscribe/post?u=cdb7b577e41181934ed6a6a44&amp;id=e6957d85dc'   // mailchimp url
-},
+✅ Multi-Sports & Multi-Ligues
+- Liga espagnole, Premier League, Ligue 1
+- Tennis, basketball et autres sports
+- Tipsters spécialisés par discipline
 
-Replace the value of mailChimpURL with your mailchimp url and make sure to uncomment the function
-call ssAjaxChimp() inside the ssInit() function:
+✅ Formules d'Abonnement
+- Version gratuite : 3 pronostics par jour
+- Version premium : 10€/mois avec accès illimité
 
-(function ssInit() {
+==================================================================================================
 
-    ssPreloader();
-    ssMobileMenu();
-    ssFitVids();
-    ssOwlCarousel();
-    ssWaypoints();
-    ssSmoothScroll();
-    ssPlaceholder();
-    ssAlertBoxes();
-    ssAOS();
-    ssBackToTop();
+STRUCTURE DU PROJET:
 
-    // to use the mailchimp form, uncomment the 
-    // function call ssAjaxChimp() below:
-    // ssAjaxChimp(); 
+├── index.html              # Page principale de la landing page
+├── css/                    # Styles CSS
+│   ├── base.css           # Styles de base
+│   ├── main.css           # Styles principaux
+│   ├── vendor.css         # Styles des bibliothèques
+│   └── font-awesome/      # Icônes Font Awesome
+├── js/                    # Scripts JavaScript
+│   ├── main.js           # Script principal
+│   ├── jquery-2.1.3.min.js
+│   ├── modernizr.js
+│   └── plugins.js
+├── images/                # Images et ressources
+│   ├── hero-bg.jpg       # Image de fond hero
+│   ├── iphone-app-*.png  # Mockups de l'application
+│   ├── app-screens-*.png # Captures d'écran
+│   └── avatars/          # Photos des témoignages
+└── fonts/                 # Polices personnalisées
 
-})();
+==================================================================================================
 
+TECHNOLOGIES UTILISÉES:
 
------------------------------------------------------------------------------------------------------
+Frontend:
+- HTML5 sémantique et responsive
+- CSS3 avec animations et transitions
+- JavaScript vanilla et jQuery
+- Design mobile-first
 
+Bibliothèques JavaScript:
+- jQuery (http://jquery.com/)
+- Modernizr (http://modernizr.com/)
+- Waypoints (http://imakewebthings.com/jquery-waypoints/)
+- FitVids (http://fitvidsjs.com/)
+- Pace.js (http://github.hubspot.com/pace/)
+- Animate on Scroll (https://michalsnik.github.io/aos/)
+- Parallax.js (http://pixelcog.github.io/parallax.js/)
+- Owl Carousel (https://owlcarousel2.github.io/OwlCarousel2/)
 
-LICENSE:
+Polices:
+- Montserrat (https://www.google.com/fonts/specimen/Montserrat)
+- Muli (https://fonts.google.com/specimen/Muli)
 
+Icônes:
+- Font Awesome (http://fortawesome.github.io/Font-Awesome/)
+- Micons Free Icons (http://geticonjar.com/freebies/231-micons/)
 
-DAZZLE is released under the Creative Commons Attribution 3.0 License
-(http://creativecommons.org/licenses/by/3.0/). This means that you are free:
+==================================================================================================
 
-   to Share - to copy, distribute, display, and perform the work
-   to Remix - to make derivative works
-   to make commercial use of the work 
+INSTALLATION ET UTILISATION:
 
-Under the following conditions:
+1. Téléchargez tous les fichiers du projet
+2. Ouvrez index.html dans votre navigateur web
+3. La page est entièrement responsive et fonctionne sur tous les appareils
 
-   Attribution - You must attribute the work in the manner specified by the 
-   author or licensor (but not in any way that suggests that they endorse you 
-   or your use of the work). 
+Pour le développement:
+- Modifiez les styles dans css/main.css
+- Ajustez le contenu dans index.html
+- Personnalisez les scripts dans js/main.js
 
-   For any reuse or distribution, you must make clear to others the license 
-   terms of this work
+==================================================================================================
 
-   Any of these conditions can be waived if you get permission from the 
-   copyright holder
+FONCTIONNALITÉS DE LA LANDING PAGE:
 
-Attribution: 
-	
-   You must include a credit link to our website(http://www.Styleshout.com) somewhere on
-   your site. We prefer the footer credit that comes with the template but you are still 
-   free to move it somewhere else.
+✅ Sections Principales:
+- Hero avec appel à l'action
+- À propos de l'application
+- Fonctionnalités détaillées
+- Tarifs et abonnements
+- Témoignages utilisateurs
+- Section téléchargement
 
+✅ Éléments Interactifs:
+- Navigation fluide avec smooth scroll
+- Animations au scroll (AOS)
+- Carousel de témoignages
+- Effets parallax
+- Menu mobile responsive
 
------------------------------------------------------------------------------------------------------
+✅ Optimisations:
+- Images optimisées et responsive
+- Chargement rapide
+- Compatible tous navigateurs
+- SEO optimisé
 
+==================================================================================================
 
-REMOVING THE LINK:
+RÉSEAUX SOCIAUX:
 
-We understand that there are situations where you want to use the template without the 
-crediting obligation. If that's your case, you can always send us a 
-credit removal fee of 10 USD through Paypal. This will allow you to use the 
-template attribution/credit link free on ONE DOMAIN name. 
+L'application Tipster Market est présente sur:
+- Instagram: @tipster.market
+- TikTok: @tipster.market  
+- X (Twitter): @market_tip36353
 
-You can send your payments through Paypal to this address: ealigam@gmail.com
+==================================================================================================
 
-If possible, kindly send us the site's url where the template is being used. 
-Also, keep your Paypal receipt as proof of payment and your good to go.
+CONTACT:
 
+Email: contact@tipstermarket.fr
+Site web: https://tipstermarket.fr
 
------------------------------------------------------------------------------------------------------- 
+==================================================================================================
 
+LICENCE:
 
-SUPPORT:
-    
-Since DAZZLE is distributed for free, support is not offered. DAZZLE is coded according 
-to current web standards and we did our best to make the template easy to use and modify.
-If you have minimum web development experience, you can easily modify the template. 
-However, If you're still new to HTML and CSS, I suggest that you visit the 
-following tutorials:
+Ce template est basé sur DAZZLE de StyleShout, distribué sous licence Creative Commons 
+Attribution 3.0. Vous êtes libre de l'utiliser, le modifier et le distribuer sous 
+réserve d'inclure un lien vers http://www.Styleshout.com.
 
- - http://tutsplus.com/course/30-days-to-learn-html-and-css/
- - http://learn.shayhowe.com/html-css/
+Pour supprimer l'obligation de crédit, un paiement de 10 USD est requis via PayPal 
+à l'adresse: ealigam@gmail.com
 
-These will teach you the essentials of HTML and CSS. In addition, if you want to include
-jQuery in your skill-set, you can also check out these tutorials: 
+==================================================================================================
 
- - http://code.tutsplus.com/courses/30-days-to-learn-jquery
- - http://try.jquery.com/
+CRÉDITS:
 
+Template original: DAZZLE par StyleShout (http://www.styleshout.com/)
+Images: Unsplash.com, Relate UI Kit
+Développement: Adapté pour Tipster Market
 
-
--------------------------------------------------------------------------------------------------------
-
-
-SOURCES AND CREDITS:
-
-I've used the following resources as listed.
-
-Fonts:
- - Montserrat Font (https://www.google.com/fonts/specimen/Montserrat)
- - Muli Font (https://fonts.google.com/specimen/Muli) 
-
-Icons:
- - Font Awesome (http://fortawesome.github.io/Font-Awesome/)
- - Micons Free Icons (http://geticonjar.com/freebies/231-micons/)
- - Webfont generated by ICOMOON (https://icomoon.io/)
-
-Stock Photos and Graphics:
- - Unsplash.com (https://unsplash.com/)
- - Relate UI Kit (https://www.invisionapp.com/relate)
- 
-Javascript Files:
-
- - JQuery (http://jquery.com/)
- - Modernizr (http://modernizr.com/)
- - Waypoints (http://imakewebthings.com/jquery-waypoints/)
- - jQuery Placeholder (https://github.com/mathiasbynens/jquery-placeholder)
- - FitVids (http://fitvidsjs.com/)
- - pace js (http://github.hubspot.com/pace/)
- - Masonry (http://masonry.desandro.com/)
- - ajaxChimp (https://github.com/scdoshi/jquery-ajaxchimp)
- - animate on scroll (https://michalsnik.github.io/aos/)
- - parallax.js (http://pixelcog.github.io/parallax.js/)
- - Owl Carousel (https://owlcarousel2.github.io/OwlCarousel2/)
+==================================================================================================
 
 
 
