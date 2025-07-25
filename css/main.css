@@ -3296,4 +3296,93 @@ footer ul a:visited {
   }
 }
 
+/* Mailchimp Form Styling */
+#mc_embed_signup {
+  background: transparent;
+  clear: left;
+  font: 14px Helvetica, Arial, sans-serif;
+  width: 100%;
+}
+
+#mc_embed_signup .mc-field-group {
+  margin-bottom: 1rem;
+}
+
+#mc_embed_signup input[type="email"] {
+  width: 100%;
+  height: 5.4rem;
+  padding: 1.2rem 100px 1.2rem 60px;
+  background: url(../images/email-icon.png) 20px center no-repeat,
+    rgba(0, 0, 0, 0.1);
+  background-size: 24px 16px, auto;
+  border: none;
+  border-radius: 0.5rem;
+  font-size: 1.4rem;
+  color: rgba(255, 255, 255, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+#mc_embed_signup input[type="email"]:focus {
+  outline: none;
+  color: #ffffff;
+  background: url(../images/email-icon.png) 20px center no-repeat,
+    rgba(0, 0, 0, 0.2);
+  background-size: 24px 16px, auto;
+}
+
+#mc_embed_signup input[type="submit"] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  color: #ffffff;
+  background: #b30b25;
+  border-color: #b30b25;
+  border-radius: 0 0.5rem 0.5rem 0;
+  padding: 0 15px;
+  height: 5.4rem;
+  font-size: 1.4rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+#mc_embed_signup input[type="submit"]:hover {
+  background: #a00923;
+  transform: translateY(-2px);
+}
+
+#mc_embed_signup .response {
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 3px;
+  font-size: 1.3rem;
+  color: #ffffff;
+}
+
+#mc_embed_signup #mce-error-response {
+  background: rgba(255, 0, 0, 0.1);
+  border: 1px solid rgba(255, 0, 0, 0.3);
+}
+
+#mc_embed_signup #mce-success-response {
+  background: rgba(0, 255, 0, 0.1);
+  border: 1px solid rgba(0, 255, 0, 0.3);
+}
+
+#mc_embed_signup ::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+#mc_embed_signup :-moz-placeholder {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+#mc_embed_signup ::-moz-placeholder {
+  color: rgba(255, 255, 255, 0.2);
+}
+
+#mc_embed_signup :-ms-input-placeholder {
+  color: rgba(255, 255, 255, 0.2);
+}
+
 /*# sourceMappingURL=main.css.map */
