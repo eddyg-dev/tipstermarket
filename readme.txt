@@ -2,8 +2,8 @@
 
 DESCRIPTION:
 
-TIPSTER MARKET est une plateforme web moderne et responsive conçue pour présenter 
-l'application mobile Tipster Market - la première plateforme française qui permet 
+Prono d'Or est une plateforme web moderne et responsive conçue pour présenter 
+l'application mobile Prono d'Or - la première plateforme française qui permet 
 de découvrir les vrais meilleurs tipsters avec des statistiques transparentes et vérifiées.
 
 Cette landing page présente l'application qui réunit tous les tipsters au même endroit, 
@@ -12,7 +12,7 @@ Parfaite pour les parieurs sportifs qui veulent identifier les vrais experts du 
 
 ==================================================================================================
 
-FONCTIONNALITÉS DE L'APPLICATION TIPSTER MARKET:
+FONCTIONNALITÉS DE L'APPLICATION PRONO D'OR:
 
 ✅ Statistiques Transparentes
 - ROI (retour sur investissement)
@@ -33,7 +33,7 @@ FONCTIONNALITÉS DE L'APPLICATION TIPSTER MARKET:
 
 ✅ Formules d'Abonnement
 - Version gratuite : 3 pronostics par jour
-- Version premium : 10€/mois avec accès illimité
+- Version premium : 15€/mois avec accès illimité
 
 ==================================================================================================
 
@@ -127,10 +127,9 @@ FONCTIONNALITÉS DE LA LANDING PAGE:
 
 RÉSEAUX SOCIAUX:
 
-L'application Tipster Market est présente sur:
-- Instagram: @tipster.market
-- TikTok: @tipster.market  
-- X (Twitter): @market_tip36353
+L'application Prono d'Or est présente sur:
+- Instagram: @pronodor_officiel
+- TikTok: @pronodor_officiel  
 
 ==================================================================================================
 
@@ -156,7 +155,7 @@ CRÉDITS:
 
 Template original: DAZZLE par StyleShout (http://www.styleshout.com/)
 Images: Unsplash.com, Relate UI Kit
-Développement: Adapté pour Tipster Market
+Développement: Adapté pour Prono d'Or
 
 ==================================================================================================
 
